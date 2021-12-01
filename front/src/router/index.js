@@ -54,7 +54,7 @@ export const constantRoutes = [
       path: 'regist',
       component: Layout,
       meta: { title: '户籍查询', icon: '模板管理' },
-      component: () => import('@/views/regist.vue'),
+      component: () => import('@/views/community.vue'),
     }
   ]
   },
@@ -108,7 +108,7 @@ export const constantRoutes = [
       path: 'community',
       component: Layout,
       meta: { title: '社区管理', icon: '模板管理' },
-      component: () => import('@/views/community.vue'),
+      component: () => import('@/views/addRegist.vue'),
     },
   ]
   },

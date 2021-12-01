@@ -1,8 +1,7 @@
 package com.hbpu.controller;
 
 
-import com.hbpu.entity.City;
-import com.hbpu.entity.ResultDto;
+import com.hbpu.dto.ResultDto;
 import com.hbpu.service.ICityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;

@@ -1,16 +1,13 @@
 package com.hbpu.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.hbpu.dto.ResultDto;
 import com.hbpu.entity.*;
 import com.hbpu.mapper.*;
-import com.hbpu.service.IDetailService;
 import com.hbpu.service.IProvinceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-import org.springframework.util.StringUtils;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 /**

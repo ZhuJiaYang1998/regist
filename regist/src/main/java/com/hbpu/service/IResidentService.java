@@ -1,11 +1,10 @@
 package com.hbpu.service;
 
-import com.hbpu.entity.DataDto;
-import com.hbpu.entity.PageResult;
+import com.hbpu.dto.DataDto;
+import com.hbpu.dto.PageResult;
 import com.hbpu.entity.Resident;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.hbpu.entity.ResultDto;
-import org.springframework.web.bind.annotation.RequestBody;
+import com.hbpu.dto.ResultDto;
 
 import java.util.List;
 

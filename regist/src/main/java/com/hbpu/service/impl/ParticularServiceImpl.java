@@ -2,9 +2,9 @@ package com.hbpu.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.hbpu.entity.DataDto;
-import com.hbpu.entity.PageResult;
-import com.hbpu.entity.Particular;
+import com.hbpu.dto.DataDto;
+import com.hbpu.dto.PageResult;
+import com.hbpu.dto.Particular;
 import com.hbpu.entity.User;
 import com.hbpu.mapper.ParticularMapper;
 import com.hbpu.service.IParticularService;

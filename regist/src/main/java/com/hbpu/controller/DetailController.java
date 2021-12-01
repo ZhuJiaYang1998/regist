@@ -1,6 +1,7 @@
 package com.hbpu.controller;
 
 
+import com.hbpu.dto.ResultDto;
 import com.hbpu.entity.*;
 import com.hbpu.service.IDetailService;
 //import org.omg.CORBA.PUBLIC_MEMBER;

@@ -1,19 +1,17 @@
 package com.hbpu.service.impl;
 
-import com.baomidou.mybatisplus.core.conditions.query.Query;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.hbpu.entity.DataDto;
+import com.hbpu.dto.DataDto;
 import com.hbpu.entity.Level;
-import com.hbpu.entity.PageResult;
-import com.hbpu.entity.ResultDto;
+import com.hbpu.dto.PageResult;
+import com.hbpu.dto.ResultDto;
 import com.hbpu.mapper.LevelMapper;
 import com.hbpu.service.ILevelService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
-import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.List;
 

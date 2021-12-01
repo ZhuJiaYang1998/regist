@@ -1,9 +1,9 @@
 package com.hbpu.controller;
 
 
-import com.hbpu.entity.DataDto;
-import com.hbpu.entity.PageResult;
-import com.hbpu.entity.Particular;
+import com.hbpu.dto.DataDto;
+import com.hbpu.dto.PageResult;
+import com.hbpu.dto.Particular;
 import com.hbpu.service.IParticularService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

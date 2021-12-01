@@ -1,21 +1,17 @@
 package com.hbpu.service.impl;
 
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.hbpu.dto.DataDto;
+import com.hbpu.dto.PageResult;
+import com.hbpu.dto.ResultDto;
 import com.hbpu.entity.*;
 import com.hbpu.mapper.*;
 import com.hbpu.service.ICommunityService;
-import com.hbpu.service.IDetailService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import org.apache.tomcat.jni.Local;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StringUtils;
 
-import java.time.LocalDateTime;
-import java.util.Date;
 import java.util.List;
 
 /**

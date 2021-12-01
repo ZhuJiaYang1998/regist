@@ -1,9 +1,11 @@
 package com.hbpu.controller;
 
 
+import com.hbpu.dto.DataDto;
+import com.hbpu.dto.PageResult;
+import com.hbpu.dto.ResultDto;
 import com.hbpu.entity.*;
 import com.hbpu.service.ICommunityService;
-import com.hbpu.service.IDetailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

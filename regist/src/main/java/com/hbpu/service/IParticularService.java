@@ -1,8 +1,8 @@
 package com.hbpu.service;
 
-import com.hbpu.entity.DataDto;
-import com.hbpu.entity.PageResult;
-import com.hbpu.entity.Particular;
+import com.hbpu.dto.DataDto;
+import com.hbpu.dto.PageResult;
+import com.hbpu.dto.Particular;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

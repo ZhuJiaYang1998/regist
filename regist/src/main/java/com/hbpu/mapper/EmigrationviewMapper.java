@@ -1,6 +1,6 @@
 package com.hbpu.mapper;
 
-import com.hbpu.entity.Emigrationview;
+import com.hbpu.vo.Emigrationview;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

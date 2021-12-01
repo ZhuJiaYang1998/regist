@@ -3,7 +3,7 @@ package com.hbpu.service.impl;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.hbpu.entity.Removal;
-import com.hbpu.entity.ResultDto;
+import com.hbpu.dto.ResultDto;
 import com.hbpu.entity.User;
 import com.hbpu.mapper.RemovalMapper;
 import com.hbpu.service.IRemovalService;

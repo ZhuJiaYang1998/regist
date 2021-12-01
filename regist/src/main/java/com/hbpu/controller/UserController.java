@@ -1,15 +1,12 @@
 package com.hbpu.controller;
 
 
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.hbpu.entity.PageResult;
-import com.hbpu.entity.ResultDto;
+import com.hbpu.dto.PageResult;
+import com.hbpu.dto.ResultDto;
 import com.hbpu.entity.User;
-import com.hbpu.entity.DataDto;
+import com.hbpu.dto.DataDto;
 import com.hbpu.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 
 /**

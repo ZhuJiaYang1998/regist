@@ -1,10 +1,9 @@
 package com.hbpu.controller;
 
 
-import com.hbpu.entity.DataDto;
-import com.hbpu.entity.Emigration;
-import com.hbpu.entity.Emigrationview;
-import com.hbpu.entity.PageResult;
+import com.hbpu.dto.DataDto;
+import com.hbpu.vo.Emigrationview;
+import com.hbpu.dto.PageResult;
 import com.hbpu.service.IEmigrationviewService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

@@ -1,12 +1,10 @@
 package com.hbpu.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.hbpu.entity.PageResult;
 import com.hbpu.entity.Removal;
-import com.hbpu.entity.ResultDto;
+import com.hbpu.dto.ResultDto;
 
 import java.util.List;
-import java.util.Map;
 
 /**
  * <p>

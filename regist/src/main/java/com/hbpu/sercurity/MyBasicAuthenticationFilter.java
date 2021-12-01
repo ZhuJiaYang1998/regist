@@ -1,14 +1,12 @@
 package com.hbpu.sercurity;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.hbpu.entity.ResultDto;
+import com.hbpu.dto.ResultDto;
 import com.hbpu.entity.User;
 import com.hbpu.util.JwtUtils;
 import com.hbpu.util.RsaUtils;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.web.authentication.www.BasicAuthenticationFilter;
 import org.springframework.util.ResourceUtils;
@@ -20,7 +18,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.security.PublicKey;
-import java.util.List;
 
 /**
  * <p>title: com.wfx.filter</p>

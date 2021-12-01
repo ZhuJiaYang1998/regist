@@ -2,9 +2,8 @@ package com.hbpu.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.hbpu.entity.City;
 import com.hbpu.entity.Region;
-import com.hbpu.entity.ResultDto;
+import com.hbpu.dto.ResultDto;
 import com.hbpu.mapper.RegionMapper;
 import com.hbpu.service.IRegionService;
 import org.springframework.beans.factory.annotation.Autowired;

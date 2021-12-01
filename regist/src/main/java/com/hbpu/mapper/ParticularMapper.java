@@ -1,6 +1,6 @@
 package com.hbpu.mapper;
 
-import com.hbpu.entity.Particular;
+import com.hbpu.dto.Particular;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

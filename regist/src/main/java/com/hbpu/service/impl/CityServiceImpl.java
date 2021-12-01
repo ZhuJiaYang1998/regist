@@ -3,11 +3,10 @@ package com.hbpu.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.hbpu.entity.City;
-import com.hbpu.entity.ResultDto;
+import com.hbpu.dto.ResultDto;
 import com.hbpu.mapper.CityMapper;
 import com.hbpu.service.ICityService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.annotation.Id;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 

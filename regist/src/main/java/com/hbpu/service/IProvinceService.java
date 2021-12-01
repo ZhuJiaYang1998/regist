@@ -1,10 +1,8 @@
 package com.hbpu.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.hbpu.entity.Detail;
-import com.hbpu.entity.Emigration;
 import com.hbpu.entity.Province;
-import com.hbpu.entity.ResultDto;
+import com.hbpu.dto.ResultDto;
 
 import java.util.List;
 

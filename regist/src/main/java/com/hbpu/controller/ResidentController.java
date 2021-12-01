@@ -1,12 +1,11 @@
 package com.hbpu.controller;
 
 
-import com.hbpu.entity.DataDto;
-import com.hbpu.entity.PageResult;
+import com.hbpu.dto.DataDto;
+import com.hbpu.dto.PageResult;
 import com.hbpu.entity.Resident;
-import com.hbpu.entity.ResultDto;
+import com.hbpu.dto.ResultDto;
 import com.hbpu.service.IResidentService;
-import org.springframework.beans.factory.ListableBeanFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
